@@ -1,0 +1,86 @@
+<svg width="100%" viewBox="0 0 690 690" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Election Assistant Icon</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">App icon with a realistic ballot box on blue-purple gradient background</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3b5bdb"/>
+    </linearGradient>
+    <linearGradient id="boxfront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0f4ff"/>
+      <stop offset="100%" stop-color="#d0d8f8"/>
+    </linearGradient>
+    <linearGradient id="boxside" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c0caee"/>
+      <stop offset="100%" stop-color="#a0aedd"/>
+    </linearGradient>
+    <linearGradient id="lidfront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8ff"/>
+    </linearGradient>
+    <linearGradient id="lidside" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d0d8f8"/>
+      <stop offset="100%" stop-color="#b8c4ee"/>
+    </linearGradient>
+    <linearGradient id="lidtop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#dce4ff"/>
+    </linearGradient>
+    <linearGradient id="ballotgrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0f4ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect width="680" height="680" rx="150" fill="url(#bg)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="0" y="0" width="680" height="200" rx="150" fill="white" opacity="0.06" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.06;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- === BALLOT BOX (isometric/3D look) === -->
+
+  <!-- BOX BODY: right side face -->
+  <polygon points="510,370 560,340 560,565 510,595" fill="url(#boxside)" stroke="#9aa8dd" stroke-width="2" style="stroke:rgb(154, 168, 221);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- BOX BODY: front face -->
+  <polygon points="170,370 510,370 510,595 170,595" fill="url(#boxfront)" stroke="#b0bcee" stroke-width="2" style="stroke:rgb(176, 188, 238);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- BOX BODY: top of box (open area under lid — dark slot visible) -->
+  <polygon points="170,370 220,340 560,340 510,370" fill="#dce4ff" stroke="#b0bcee" stroke-width="2" style="fill:rgb(220, 228, 255);stroke:rgb(176, 188, 238);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Handle left -->
+  <rect x="220" y="460" width="40" height="70" rx="10" fill="#b0bcee" stroke="#9aaad8" stroke-width="2" style="fill:rgb(176, 188, 238);stroke:rgb(154, 170, 216);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Handle right -->
+  <rect x="420" y="460" width="40" height="70" rx="10" fill="#b0bcee" stroke="#9aaad8" stroke-width="2" style="fill:rgb(176, 188, 238);stroke:rgb(154, 170, 216);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Lock circle on front -->
+  <circle cx="340" cy="490" r="22" fill="#c8d2f0" stroke="#9aaad8" stroke-width="3" style="fill:rgb(200, 210, 240);stroke:rgb(154, 170, 216);color:rgb(0, 0, 0);stroke-width:3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="340" cy="490" r="10" fill="#a0aedd" style="fill:rgb(160, 174, 221);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="333" y="495" width="14" height="16" rx="3" fill="#a0aedd" style="fill:rgb(160, 174, 221);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- === LID === -->
+
+  <!-- Lid right side face -->
+  <polygon points="510,295 560,265 560,340 510,370" fill="url(#lidside)" stroke="#b0bcee" stroke-width="2" style="stroke:rgb(176, 188, 238);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Lid front face -->
+  <polygon points="170,295 510,295 510,370 170,370" fill="url(#lidfront)" stroke="#c0caee" stroke-width="2" style="stroke:rgb(192, 202, 238);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Lid top face -->
+  <polygon points="170,295 220,265 560,265 510,295" fill="url(#lidtop)" stroke="#c8d4ff" stroke-width="2" style="stroke:rgb(200, 212, 255);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Slot on lid top (isometric) -->
+  <polygon points="290,275 390,275 400,285 280,285" fill="#5060c8" rx="4" style="fill:rgb(80, 96, 200);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- === BALLOT PAPER being inserted === -->
+  <!-- Paper: slight angle going into slot -->
+  <polygon points="285,148 415,148 420,278 280,278" fill="url(#ballotgrad)" stroke="#c8d0f8" stroke-width="3" style="stroke:rgb(200, 208, 248);color:rgb(0, 0, 0);stroke-width:3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Lines on paper -->
+  <line x1="305" y1="175" x2="400" y2="175" stroke="#dde2f8" stroke-width="6" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(221, 226, 248);color:rgb(0, 0, 0);stroke-width:6px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="305" y1="195" x2="385" y2="195" stroke="#dde2f8" stroke-width="6" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(221, 226, 248);color:rgb(0, 0, 0);stroke-width:6px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Checkmark on ballot -->
+  <polyline points="306,232 332,260 400,195" fill="none" stroke="#4f46e5" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgb(79, 70, 229);color:rgb(0, 0, 0);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+</svg>
